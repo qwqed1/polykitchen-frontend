@@ -112,7 +112,7 @@ const MenuPage = () => {
             <span className="hidden sm:inline">{t('menu.backToHome')}</span>
           </button>
           
-          <h1 className="text-2xl font-bold text-menu-text">{t('menu.title')}</h1>
+          <h1 className="text-2xl font-bold text-white">{t('menu.title')}</h1>
           
           <LanguageSelector />
         </div>
