@@ -103,7 +103,7 @@ const MenuPage = () => {
       
       <div className="relative z-10">
         {/* Header with back button and language selector */}
-        <div className="flex justify-between items-center p-6 bg-menu-bg/50 backdrop-blur-sm border-b border-menu-primary/20">
+        <div className="flex justify-between items-center p-6 bg-black/20 backdrop-blur-sm border-b border-menu-primary/20">
           <button
             onClick={() => navigate('/')}
             className="flex items-center gap-2 px-4 py-2 bg-menu-primary/80 backdrop-blur-sm border border-menu-primary/30 rounded-lg text-white hover:bg-menu-primary transition-all duration-300"
@@ -112,7 +112,7 @@ const MenuPage = () => {
             <span className="hidden sm:inline">{t('menu.backToHome')}</span>
           </button>
           
-          <h1 className="text-2xl font-bold text-menu-text">{t('menu.title')}</h1>
+          <h1 className="text-2xl font-bold text-white">{t('menu.title')}</h1>
           
           <LanguageSelector />
         </div>
@@ -126,7 +126,7 @@ const MenuPage = () => {
               placeholder={t('menu.search')}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-10 pr-4 py-3 bg-menu-bg/50 backdrop-blur-sm border border-menu-primary/30 rounded-lg text-menu-text placeholder-gray-400 focus:outline-none focus:border-menu-primary/50 transition-colors"
+              className="w-full pl-10 pr-4 py-3 bg-menu-bg/50 backdrop-blur-sm border border-menu-primary/30 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-menu-primary/50 transition-colors"
             />
           </div>
         </div>
