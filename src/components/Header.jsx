@@ -14,7 +14,7 @@ const Header = ({ title, onBack, onHome, showBack }) => {
         <ArrowLeft className="w-4 h-4 md:w-5 md:h-5 text-menu-primary" />
       </button>
 
-      <h1 className="text-lg md:text-2xl font-light text-white tracking-wide drop-shadow-md truncate px-2">{title}</h1>
+<h1 className="text-lg md:text-2xl font-light text-white tracking-wide drop-shadow-md truncate px-2">{title}</h1>
 
       <div className="flex items-center gap-2 md:gap-3 relative z-[9999]">
         <LanguageSelector />

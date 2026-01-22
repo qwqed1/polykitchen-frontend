@@ -23,11 +23,11 @@ const Sidebar = ({ categories, selectedCategory, onSelectCategory }) => {
             className={`w-full text-left py-3 px-4 rounded-lg flex items-center gap-3 transition-all duration-300 ${
               selectedCategory === category.id
                 ? 'bg-white text-menu-primary font-semibold text-base shadow-xl border-2 border-white'
-                : 'bg-white/80 text-menu-text border-2 border-white/50 text-sm hover:bg-white hover:border-white'
+                : 'bg-white/10 text-white border-2 border-white/50 text-sm hover:bg-white/20 hover:border-white'
             }`}
           >
             <span className={`w-2 h-2 rounded-full flex-shrink-0 transition-all duration-300 ${
-              selectedCategory === category.id ? 'bg-menu-primary shadow-lg shadow-menu-primary/50' : 'bg-menu-text/40'
+              selectedCategory === category.id ? 'bg-menu-primary shadow-lg shadow-menu-primary/50' : 'bg-white/40'
             }`} />
             <span>{getCategoryName(category)}</span>
           </button>
