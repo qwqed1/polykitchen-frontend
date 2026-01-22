@@ -85,7 +85,7 @@ const DishCard = ({ dish, onViewDetails, index = 0 }) => {
             {/* "Подробнее" button */}
             <button
               onClick={() => onViewDetails?.(dish)}
-              className="mt-2 md:mt-3 px-3 py-1 md:px-4 md:py-1.5 bg-menu-primary/10 border border-menu-primary/30 text-menu-primary text-xs font-medium rounded-full flex items-center gap-1 md:gap-2 w-fit hover:bg-menu-primary hover:text-white transition-all duration-300"
+              className="mt-2 md:mt-3 px-3 py-1 md:px-4 md:py-1.5 bg-white/10 border border-white/30 text-white text-xs font-medium rounded-full flex items-center gap-1 md:gap-2 w-fit hover:bg-white/20 hover:text-white transition-all duration-300"
             >
               <span className="text-xs">ℹ️</span>
               <span className="hidden md:inline">Подробнее</span>
