@@ -77,8 +77,8 @@ const DishCard = ({ dish, onViewDetails, index = 0 }) => {
             className="w-20 h-20 md:w-32 md:h-32 rounded-2xl object-cover shadow-lg ring-2 ring-menu-primary/20 flex-shrink-0 hover:scale-105 transition-transform duration-300"
           />
           <div className="flex-1 min-w-0">
-            <h3 className="text-base md:text-lg font-semibold text-white mb-1 md:mb-2 truncate">{getDishName(dish)}</h3>
-            <p className="text-white/70 text-xs md:text-sm leading-relaxed line-clamp-2">
+            <h3 className="text-base md:text-lg font-semibold text-white mb-1 md:mb-2 truncate" style={{ color: 'white' }}>{getDishName(dish)}</h3>
+            <p className="text-white/70 text-xs md:text-sm leading-relaxed line-clamp-2" style={{ color: 'rgba(255, 255, 255, 0.7)' }}>
               {getDescription(dish)}
             </p>
             

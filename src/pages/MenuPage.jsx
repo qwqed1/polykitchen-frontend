@@ -112,7 +112,7 @@ const MenuPage = () => {
             <span className="hidden sm:inline">{t('menu.backToHome')}</span>
           </button>
           
-          <h1 className="text-2xl font-bold text-white">{t('menu.title')}</h1>
+          <h1 className="text-2xl font-bold text-white" style={{ color: 'white' }}>{t('menu.title')}</h1>
           
           <LanguageSelector />
         </div>
@@ -127,6 +127,7 @@ const MenuPage = () => {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-10 pr-4 py-3 bg-menu-bg/50 backdrop-blur-sm border border-menu-primary/30 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-menu-primary/50 transition-colors"
+              style={{ color: 'white' }}
             />
           </div>
         </div>
