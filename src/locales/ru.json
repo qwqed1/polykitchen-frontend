@@ -1,0 +1,18 @@
+{
+  "home": {
+    "companyName": "POLYTECH KITHEN",
+    "subtitle": "POLYTECH KITHEN",
+    "menuButton": "Перейти в меню"
+  },
+  "menu": {
+    "title": "Кухня",
+    "goToMenu": "Перейти в меню",
+    "bar": "Напитки"
+  },
+  "language": {
+    "select": "Язык",
+    "en": "English",
+    "ru": "Русский",
+    "kk": "Қазақша"
+  }
+}

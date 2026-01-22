@@ -1,0 +1,18 @@
+{
+  "home": {
+    "companyName": "POLYTECH KITHEN",
+    "subtitle": "POLYTECH KITHEN",
+    "menuButton": "Мәзірге өту"
+  },
+  "menu": {
+    "title": "Ас үй",
+    "goToMenu": "Мәзірге өту",
+    "bar": "Сусындар"
+  },
+  "language": {
+    "select": "Тіл",
+    "en": "English",
+    "ru": "Русский",
+    "kk": "Қазақша"
+  }
+}
